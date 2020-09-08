@@ -1,8 +1,8 @@
+var person = {
+  'name' : 'bob',
+  'age' : '32',
+};
 
-var person = {};
+person['country'] = ['canada'];
 
-person['name'] = ['Bob', 'Smith'];
-
-console.log(person.name)
-
-
+console.log(person.country)
