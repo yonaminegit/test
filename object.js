@@ -3,6 +3,8 @@ var person = {
   'age' : '32',
 };
 
-person['country'] = ['canada'];
+person['country'] = 'canada';
 
-console.log(person.country)
+for (var value of Object.values(person)) {
+  console.log(value);    
+}
