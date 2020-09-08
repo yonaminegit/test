@@ -1,3 +1,9 @@
+let array = [
+  1,
+  2,
+  3
+];
+
 var person = {
   'name' : 'bob',
   'age' : '32',
@@ -11,5 +17,6 @@ var person = {
 
 person['country'] = 'canada';
 
-console.log(person.family.father);
-console.log(person.family.mother);
+for(var value of array){
+  console.log(value);
+}
