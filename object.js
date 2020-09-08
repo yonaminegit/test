@@ -4,8 +4,12 @@ var person = {
   
   family : {
     father: 'Bobby',
-    mother: 'Cathy'
+    mother: 'Cathy',
   },
-};
+
+}
 
 person['country'] = 'canada';
+
+console.log(person.family.father);
+console.log(person.family.mother);
