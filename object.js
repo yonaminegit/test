@@ -21,6 +21,8 @@ var person = {
 
 }
 
+var point = 'name';
+
 person['country'] = 'canada';
 
 console.log('1.');
@@ -30,11 +32,9 @@ console.log('2.');
 console.log(person.country);
 
 console.log('3.');
-for (var value of Object.values(person)) {
-  console.log(value);    
- }
+console.log(person[point]);    
 
- console.log('4.');
+console.log('4.');
 person.selfIntroduce();
 
 console.log('5.');
